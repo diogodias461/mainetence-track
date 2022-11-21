@@ -1,0 +1,64 @@
+﻿.body1 {
+    background-color: antiquewhite
+}
+
+.retangle {
+    background-color: white;
+    height: 55px;
+    width: 247px;
+    margin-left:150px;
+}
+.center {
+    margin: auto;
+    width: 60%;
+    border: 3px solid #73AD21;
+    padding: 10px;
+}
+.center2 {
+    margin: auto;
+    width: 60%;
+    border: 3px solid #73AD21;
+    padding: 10px;
+    margin-top:150px;
+}
+.center-block {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.login-button {
+
+    margin-top:15px;
+    width: 30%;
+    border: 3px solid #73AD21;
+    padding: 10px;
+}
+.button-37 {
+    background-color: #73AD21;
+    border: 1px solid #73AD21;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, .1) 0 2px 4px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    font-family: "Akzidenz Grotesk BQ Medium", -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    outline: none;
+    outline: 0;
+    padding: 10px 25px;
+    text-align: center;
+    transform: translateY(0);
+    transition: transform 150ms, box-shadow 150ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 300px;
+    height: 150px;
+}
+
+.tabela-home{
+    margin:auto;
+    margin-top:300px;
+}
