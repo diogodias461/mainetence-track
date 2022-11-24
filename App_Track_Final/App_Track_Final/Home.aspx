@@ -18,11 +18,11 @@
          <a href="Mecanicos.aspx" class="button-37">Mecânicos</a>
         </td>
         <td style="padding-left:10px">
-          <button type="button" class="button-37">Clientes</button>
+            <a href="Clientes.aspx" class="button-37">Clientes</a
         </td>
         <td style="padding-left:10px">
-            <button type="button" class="button-37">Veículos</button>
-        </td>
+                <a href="Veiculos.aspx" class="button-37">Veículos</a
+            </td>
     </tr>
 </table>
 

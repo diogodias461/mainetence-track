@@ -13,5 +13,10 @@ namespace App_Track_Final
         {
 
         }
+
+        protected void GridView1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

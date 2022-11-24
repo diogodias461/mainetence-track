@@ -56,9 +56,14 @@
     touch-action: manipulation;
     width: 300px;
     height: 150px;
+    text-decoration:none;
 }
 
 .tabela-home{
     margin:auto;
     margin-top:300px;
+}
+
+a{
+    text-decoration:none;
 }
