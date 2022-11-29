@@ -20,21 +20,9 @@
                 <asp:BoundField DataField="nif_mecanico" HeaderText="NIF" ReadOnly="True" SortExpression="nif_mecanico" />
                 <asp:BoundField DataField="nome_mecanico" HeaderText="Nome" SortExpression="nome_mecanico" />
                 <asp:BoundField DataField="morada_mecanico" HeaderText="Morada" SortExpression="morada_mecanico" />
+                <asp:CommandField ButtonType="Button" HeaderText="Apagar" ShowDeleteButton="True" ShowEditButton="True" ShowHeader="True" ShowSelectButton="True" />
             </Columns>
         </asp:GridView>
-        
-        
-        
-        <asp:SqlDataSource ID="SqlDataSource2" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" SelectCommand="DELETE * FROM [Mecanico]
-            WHERE nif_mecanico = @nif_mecanico">
-            <SelectParameters>
-                <asp:Parameter Name="nif_mecanico" />
-            </SelectParameters>
-        </asp:SqlDataSource>
-        
-        
-        
-        <asp:ObjectDataSource ID="ObjectDataSource1" runat="server"></asp:ObjectDataSource>
         
         
         
